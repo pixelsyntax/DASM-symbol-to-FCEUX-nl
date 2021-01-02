@@ -13,6 +13,8 @@ Generate your assembler output, being sure to generate a symbol dump with `-s`
 Pass the symbol dump to DASM-symbol-to-FCEUX-nl
 
 `dasm-symbol-to-fceux.py myrom.nes.sym myrom.nes.nl`
+or, if not executable,
+`python dasm-symbol-to-fceux.py myrom.nes.sym myrom.nes.nl`
 
 Launch FCEUX, ensuring the .nl file is in the same directory as the nes rom
 
